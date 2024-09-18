@@ -1,16 +1,15 @@
 import Intro from "./components/intro";
-import WorkEx from "./components/workex";
-
+import WorkEx from "./components/workEx";
 
 export default function Home() {
   return (
     <div>
       <main>
         <div className="p-8">
-          <Intro/>
+          <Intro />
         </div>
         <div className="p-8">
-          <WorkEx/>
+          <WorkEx />
         </div>
       </main>
       <footer></footer>
@@ -18,8 +17,8 @@ export default function Home() {
   );
 }
 
-
-{/* <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+{
+  /* <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -113,4 +112,5 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-    </div> */}
+    </div> */
+}
