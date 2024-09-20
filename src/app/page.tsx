@@ -1,6 +1,6 @@
+import DeveloperTools from "./components/developerTools";
 import Intro from "./components/intro";
 import NavBar from "./components/navbar";
-import WorkEx from "./components/workEx";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           <Intro />
         </div>
         <div>
-          <WorkEx />
+          <DeveloperTools />
         </div>
       </main>
       <footer></footer>

@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'tealblue': '#3E8BC2',
+        'lightblue': "#6BE4FF",
+        'materialyellow': "#FFD059",
       },
       fontFamily: {
         sans: "var(--font-geist-sans)",
