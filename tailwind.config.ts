@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: "var(--font-geist-sans)",
+        mono: "var(--font-geist-mono)",
+        recoleta: "var(--font-recoleta)",
+        recoletaAlt: "var(--font-recoletaAlt)",
+        prompt: "var(--font-prompt)",
+      },
     },
   },
   plugins: [],
