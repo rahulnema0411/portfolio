@@ -1,18 +1,23 @@
 "use client";
 
-import Image from "next/image";
-import profilePic from "../../../public/profile_pic.jpg";
-
 export default function Intro() {
   return (
-    <div className="flex flex-col bg-slate-500 items-start justify-end gap-y-4 h-screen pb-20">
-      <Image src={profilePic} className="w-36" alt="profile pic here" />
-      <h1 className="text-2xl">Hi, I am Rahul Nema</h1>
-      <p className="text-lg w-72">
-        Full Stack software developer with experience in Front-End and Back-End
-        technologies
+    <div className="flex flex-col sm:items-start px-8 md:items-center py-16 md:py-48 h-5/6">
+      <h1 className="text-md font-prompt font-bold text-blue-400 py-6">
+        Hey, I am Rahul Nema 👋
+      </h1>
+      <p className="text-7xl font-recoleta font-bold text-black">
+        Full Stack
       </p>
-      <p>And I love bringing ideas to life.</p>
+      <p className="text-7xl font-recoleta font-bold text-black">
+        Developer,
+      </p>
+      <p className="text-7xl font-recoleta font-bold text-black">
+        App Developer,
+      </p>
+      <p className="text-7xl font-recoleta font-bold text-black">
+        Game Developer
+      </p>
     </div>
   );
 }

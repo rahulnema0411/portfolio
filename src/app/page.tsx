@@ -7,10 +7,10 @@ export default function Home() {
     <div>
       <main>
         <NavBar />
-        <div className="p-8">
+        <div>
           <Intro />
         </div>
-        <div className="p-8">
+        <div>
           <WorkEx />
         </div>
       </main>
