@@ -13,103 +13,52 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const recoleta = localFont({
+const calistoga = localFont({
   src: [
     {
-      path: "./fonts/recoleta/Recoleta-Black.ttf",
-      weight: "900",
-    },
-    {
-      path: "./fonts/recoleta/Recoleta-Bold.ttf",
-      weight: "800",
-    },
-    {
-      path: "./fonts/recoleta/Recoleta-Semibold.ttf",
-      weight: "600",
-    },
-    {
-      path: "./fonts/recoleta/Recoleta-Medium.ttf",
-      weight: "500",
-    },
-    {
-      path: "./fonts/recoleta/Recoleta-Regular.ttf",
+      path: "./fonts/calistoga/Calistoga-Regular.ttf",
       weight: "400",
     },
-    {
-      path: "./fonts/recoleta/Recoleta-Thin.ttf",
-      weight: "300"
-    }
   ],
-  variable: "--font-recoleta",
+  variable: "--font-calistoga",
 });
 
-
-const recoletaAlt = localFont({
+const montserrat = localFont({
   src: [
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Black.ttf",
+      path: "./fonts/montserrat/Montserrat-Black.ttf",
       weight: "900",
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Bold.ttf",
+      path: "./fonts/montserrat/Montserrat-Bold.ttf",
       weight: "800",
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Semibold.ttf",
+      path: "./fonts/montserrat/Montserrat-Semibold.ttf",
       weight: "600",
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Medium.ttf",
+      path: "./fonts/montserrat/Montserrat-Medium.ttf",
       weight: "500",
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Regular.ttf",
+      path: "./fonts/montserrat/Montserrat-Regular.ttf",
       weight: "400",
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Light.ttf",
+      path: "./fonts/montserrat/Montserrat-Light.ttf",
       weight: "300"
     },
     {
-      path: "./fonts/recoletaAlt/RecoletaAlt-Thin.ttf",
+      path: "./fonts/montserrat/Montserrat-ExtraLight.ttf",
       weight: "200"
+    },
+    {
+      path: "./fonts/montserrat/Montserrat-Thin.ttf",
+      weight: "100"
     }
   ],
-  variable: "--font-recoletaAlt",
-});
-
-const prompt = localFont({
-  src: [
-    {
-      path: "./fonts/prompt/Prompt-Black.ttf",
-      weight: "900",
-    },
-    {
-      path: "./fonts/prompt/Prompt-Bold.ttf",
-      weight: "800",
-    },
-    {
-      path: "./fonts/prompt/Prompt-Semibold.ttf",
-      weight: "600",
-    },
-    {
-      path: "./fonts/prompt/Prompt-Medium.ttf",
-      weight: "500",
-    },
-    {
-      path: "./fonts/prompt/Prompt-Regular.ttf",
-      weight: "400",
-    },
-    {
-      path: "./fonts/prompt/Prompt-Light.ttf",
-      weight: "300"
-    },
-    {
-      path: "./fonts/prompt/Prompt-Thin.ttf",
-      weight: "200"
-    }
-  ],
-  variable: "--font-prompt",
+  variable: "--font-montserrat",
 });
 
 
@@ -127,7 +76,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${recoleta.variable} ${recoletaAlt.variable} ${prompt} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${calistoga.variable} ${montserrat.variable} antialiased`}
       >
         {children}
       </body>

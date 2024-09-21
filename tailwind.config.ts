@@ -18,9 +18,8 @@ const config: Config = {
       fontFamily: {
         sans: "var(--font-geist-sans)",
         mono: "var(--font-geist-mono)",
-        recoleta: "var(--font-recoleta)",
-        recoletaAlt: "var(--font-recoletaAlt)",
-        prompt: "var(--font-prompt)",
+        montserrat: "var(--font-montserrat)",
+        calistoga: "var(--font-calistoga)",
       },
     },
   },
