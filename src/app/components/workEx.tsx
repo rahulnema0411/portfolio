@@ -1,16 +1,35 @@
 "use client";
 
-import JobInfo from "./jobInfo";
-import payCrunchIcon from "../../../public/paycrunch_icon.png";
+import WorkExDetail from "./workexDetail";
 
 export default function WorkEx() {
   return (
-    <div className="flex flex-col bg-slate-500 items-start gap-y-4 h-screen pb-20">
-      <h1 className="text-2xl">
-        Here’s some of the many things I have helped build so far
-      </h1>
-      <p className="text-lg w-72">In the office</p>
-      <JobInfo title="Software Developer" subtitle="At some company" icon={payCrunchIcon}  />
+    <div className="bg-materialgreen h-screen flex flex-col items-center justify-center">
+      <div className="flex flex-col items-start">
+        <p className="font-calistoga text-white text-5xl sm:text-6xl">
+          Work Experience
+        </p>
+        <p className="font-montserrat font-medium text-white text-lg py-8">
+          A little bit of history
+        </p>
+        <div className="flex flex-col space-y-4">
+          <WorkExDetail
+            title="Lead Front End Developer"
+            companyName="PayCrunch, Bangalore"
+            detail="I'm creating campaigns for businesses, along with copy and all the designs."
+          />
+          <WorkExDetail
+            title="Member of Technical Staff"
+            companyName="Skillwin, Noida"
+            detail="Enhanced gameplay with new features, optimized performance, introduced multi-tabling, and diversified the in-game economy with inter-convertible currency for the products Octro Poker 3D (RMG)"
+          />
+          <WorkExDetail
+            title="Game Developer"
+            companyName="Hitwicket, Hyderabad"
+            detail="I'm creating campaigns for businesses, along with copy and all the designs."
+          />
+        </div>
+      </div>
     </div>
   );
 }

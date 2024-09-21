@@ -14,6 +14,8 @@ const config: Config = {
         'tealblue': '#3E8BC2',
         'lightblue': "#6BE4FF",
         'materialyellow': "#FFD059",
+        'materialgreen': "#255C3B",
+        'materialgreenlighter': "#378054",
       },
       fontFamily: {
         sans: "var(--font-geist-sans)",
