@@ -1,10 +1,12 @@
 "use client";
 
-import StackGrid from "react-stack-grid";
 import flutter from "../../../public/icons/flutter.png";
 import react from "../../../public/icons/react.png";
 import next from "../../../public/icons/nextjs.png";
-import Image from "next/image";
+import unity from "../../../public/icons/unity.png";
+import node from "../../../public/icons/nodejs.png";
+import express from "../../../public/icons/expressjs.png";
+import ToolCard from "./toolCard";
 
 export default function DeveloperTools() {
   return (
@@ -16,29 +18,14 @@ export default function DeveloperTools() {
         </p>
       </div>
       <div className="w-1/2">
-        <StackGrid columnWidth={90} gutterHeight={12} gutterWidth={24}>
-          <div key="key1" className="bg-slate-100 py-4 rounded-2xl">
-            <Image
-              src={flutter}
-              className="h-12 w-12 ml-5 rounded-full"
-              alt="uploadicon"
-            />
-          </div>
-          <div key="key2" className="bg-slate-100 py-4 rounded-2xl">
-            <Image
-              src={react}
-              className="h-12 w-12 ml-5 rounded-full"
-              alt="uploadicon"
-            />
-          </div>
-          <div key="key3" className="bg-slate-100 py-4 rounded-2xl">
-            <Image
-              src={next}
-              className="h-12 w-12 ml-5 rounded-full"
-              alt="uploadicon"
-            />
-          </div>
-        </StackGrid>
+        <div className="px-32 grid grid-cols-3 gap-8">
+          <ToolCard imageData={flutter} />
+          <ToolCard imageData={react} />
+          <ToolCard imageData={next} />
+          <ToolCard imageData={unity} />
+          <ToolCard imageData={node} />
+          <ToolCard imageData={express} />
+        </div>
       </div>
     </div>
   );
