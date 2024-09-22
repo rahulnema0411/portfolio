@@ -10,13 +10,13 @@ export default function Intro() {
         Full Stack
       </p>
       <p className="text-5xl sm:text-6xl font-calistoga text-black">
-        Developer,
+        Web Developer,
       </p>
       <p className="text-5xl sm:text-6xl font-calistoga text-black">
         App Developer,
       </p>
       <p className="text-5xl sm:text-6xl font-calistoga text-black">
-        Game Developer
+        Game Developer.
       </p>
     </div>
   );
