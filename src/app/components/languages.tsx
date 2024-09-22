@@ -9,7 +9,7 @@ import LanguageCard from "./languageCard";
 
 export default function Languages() {
   return (
-    <div className="flex flex-col px-8 py-16 sm:items-center space-y-16">
+    <div className="flex flex-col px-8 py-24 sm:items-center space-y-16 bg-white">
       <div className="">
         <p className="text-5xl sm:text-6xl font-calistoga text-black">
           Languages I speak...

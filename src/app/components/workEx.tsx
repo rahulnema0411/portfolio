@@ -5,7 +5,7 @@ import WorkExDetail from "./workexDetail";
 export default function WorkEx() {
   return (
     <div className="bg-materialgreen h-screen flex flex-col items-center justify-center">
-      <div className="flex flex-col items-start">
+      <div className="w-5/6 md:w-1/3 flex flex-col items-start">
         <p className="font-calistoga text-white text-5xl sm:text-6xl">
           Work Experience
         </p>
