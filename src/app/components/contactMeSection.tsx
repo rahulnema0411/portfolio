@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 
 export default function ContactMeSection() {
   return (
@@ -52,6 +53,15 @@ export default function ContactMeSection() {
                 rel="noopener noreferrer"
               >
                 <FaGithub color="#3E8BC2" size={18} />
+              </a>
+            </li>
+            <li className="bg-white rounded-xl p-2">
+              <a
+              href="mailto:rahulnema0411@example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <IoMail color="#3E8BC2" size={18} />
               </a>
             </li>
           </ul>

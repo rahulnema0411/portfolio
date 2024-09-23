@@ -11,8 +11,8 @@ export default function NavBar() {
     setIsOpen(!isOpen);
   };
 
-  const redirectSomewhere = () => {
-    console.log("Redirecting to somewhere");
+  const openMail = () => {
+    window.location.href = "mailto:rahul.nema6362@gmail.com";
   };
 
   return (
@@ -95,7 +95,7 @@ export default function NavBar() {
         </ul>
         <div className="h-6 border-l-2 border-gray-300 mx-4"></div>
         <button
-          onClick={redirectSomewhere}
+          onClick={openMail}
           className="flex flex-row items-center bg-black text-white rounded-full px-4 py-2 space-x-2"
         >
           <div className="font-montserrat font-bold">Get in touch</div>
