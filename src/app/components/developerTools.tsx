@@ -17,7 +17,7 @@ export default function DeveloperTools() {
 
 
   return (
-    <div className="flex flex-col sm:flex-row py-24 sm:py-0 sm:items-center justify-between bg-tealblue h-screen px-8">
+    <div className="flex flex-col sm:flex-row py-24 sm:py-0 sm:items-center justify-between bg-tealblue h-1/2 px-8">
       <div className="sm:w-1/2 py-8 sm:py-40">
         <p className="text-5xl sm:text-6xl font-calistoga text-white">
           I love to transform <span className="text-materialyellow">ideas</span>{" "}
@@ -28,17 +28,17 @@ export default function DeveloperTools() {
         </p>
       </div>
       <div className="sm:w-1/2">
-        <div className="sm:px-32 grid grid-cols-3 gap-8">
-          <ToolCard imageData={flutter} />
-          <ToolCard imageData={react} />
-          <ToolCard imageData={next} />
-          <ToolCard imageData={unity} />
-          <ToolCard imageData={node} />
-          <ToolCard imageData={express} />
-          <ToolCard imageData={aws} />
-          <ToolCard imageData={firebase} />
-          <ToolCard imageData={github} />
-          <ToolCard imageData={tailwind} />
+        <div className="flex flex-wrap justify-center px-12">
+          <ToolCard title="Flutter" imageData={flutter} />
+          <ToolCard title="ReactJS" imageData={react} />
+          <ToolCard title="NextJS" imageData={next} />
+          <ToolCard title="Unity 3D" imageData={unity} />
+          <ToolCard title="NodeJS" imageData={node} />
+          <ToolCard title="ExpressJS" imageData={express} />
+          <ToolCard title="Amazon Web Services" imageData={aws} />
+          <ToolCard title="Google Firebase" imageData={firebase} />
+          <ToolCard title="Github" imageData={github} />
+          <ToolCard title="Tailwind CSS" imageData={tailwind} />
         </div>
       </div>
     </div>
