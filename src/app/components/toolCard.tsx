@@ -8,8 +8,8 @@ export default function ToolCard({
   imageData: StaticImageData;
 }) {
   return (
-    <div key="key1" className="bg-slate-100 rounded-2xl h-20 w-20 border-black border">
-      <Image src={imageData} className="p-4 rounded-full" alt="uploadicon" />
+    <div className= "h-20 w-20">
+      <Image src={imageData} alt="uploadicon" />
     </div>
   );
 }

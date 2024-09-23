@@ -20,6 +20,7 @@ const config: Config = {
         'black900': "#171717",
         'materialblue': "#CFEAFC",
         'materialsubtitlegrey': "#737373",
+        'githubblue': "#030708",
       },
       fontFamily: {
         sans: "var(--font-geist-sans)",
