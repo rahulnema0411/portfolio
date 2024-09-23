@@ -54,22 +54,14 @@ export default function NavBar() {
               Home
             </a>
           </li>
-          <li>
+            <li>
             <a
-              href="#"
-              className="text-black font-montserrat font-bold text-sm"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
+              href="#contact"
               className="text-black font-montserrat font-bold text-sm"
             >
               Contact
             </a>
-          </li>
+            </li>
         </ul>
       </div>
       <div className="hidden sm:flex flex-row justify-between md:justify-normal items-center">
