@@ -13,7 +13,7 @@ export default function Languages() {
       <p className="text-5xl sm:text-6xl font-calistoga text-black">
         Languages I speak...
       </p>
-      <div className="grid grid-cols-2 gap-4 sm:flex sm:space-x-16">
+      <div className="flex flex-wrap sm:justify-center space-x-2 md:space-x-8 space-y-2 sm:flex-row">
         <LanguageCard imageData={dart} name="Dart" />
         <LanguageCard imageData={c} name="C#" />
         <LanguageCard imageData={java} name="Java" />

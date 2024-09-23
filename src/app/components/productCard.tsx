@@ -19,7 +19,7 @@ export default function ProductCard({
   appstoreLink: string;
 }) {
   return (
-    <div className="bg-white border-2 border-black rounded-xl w-72">
+    <div className="bg-white border-2 border-black rounded-xl w-72 my-4">
       <Image src={imageData} className="rounded-t-lg" alt="uploadicon" />
       <div className="px-4 pt-2">
         <p className="font-montserrat font-semibold text-lg text-black">{title}</p>

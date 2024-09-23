@@ -17,8 +17,8 @@ export default function DeveloperTools() {
 
 
   return (
-    <div className="flex flex-col sm:flex-row py-24 sm:py-0 sm:items-center justify-between bg-tealblue h-1/2 px-8">
-      <div className="sm:w-1/2 py-8 sm:py-40">
+    <div className="flex flex-col md:flex-row py-24 sm:py-0 sm:items-center justify-between bg-tealblue h-1/2 px-8 space-y-0 sm:space-y-2">
+      <div className="sm:w-1/2 md:p-8 sm:py-40">
         <p className="text-5xl sm:text-6xl font-calistoga text-white">
           I love to transform <span className="text-materialyellow">ideas</span>{" "}
           into <span className="text-lightblue">reality</span> using code.
@@ -28,7 +28,7 @@ export default function DeveloperTools() {
         </p>
       </div>
       <div className="sm:w-1/2">
-        <div className="flex flex-wrap justify-center px-12">
+        <div className="flex flex-wrap md:justify-center sm:px-12">
           <ToolCard title="Flutter" imageData={flutter} />
           <ToolCard title="ReactJS" imageData={react} />
           <ToolCard title="NextJS" imageData={next} />

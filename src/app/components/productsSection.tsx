@@ -9,10 +9,10 @@ import ProductCard from "./productCard";
 export default function ProductsSection() {
   return (
     <div className="flex flex-col px-8 py-24 sm:items-center space-y-16 bg-gradient-to-b from-white to-materialblue">
-      <p className="w-1/2 text-5xl sm:text-6xl font-calistoga text-black text-center mx-auto">
-        Some of the products I have helped build so far
+      <p className="sm:w-1/2 text-5xl sm:text-6xl font-calistoga text-black sm:text-center sm:mx-auto">
+        Products I have helped build so far
       </p>
-      <div className="grid grid-cols-2 gap-4 sm:flex sm:space-x-16">
+      <div className="flex flex-col md:flex-row md:space-x-6">  {/*sm:flex grid grid-cols-2 gap-4 sm:space-x-16 */}
         <ProductCard
           imageData={paycrunch}
           title="PayCrunch: a upi based creditline for gen-z."

@@ -4,8 +4,8 @@ import WorkExDetail from "./workexDetail";
 
 export default function WorkEx() {
   return (
-    <div className="bg-materialgreen h-screen flex flex-col items-center justify-center">
-      <div className="w-5/6 md:w-1/3 flex flex-col items-start">
+    <div className="bg-materialgreen py-16 sm:h-screen flex flex-col items-center justify-center">
+      <div className="sm:w-5/6 px-8 sm:px-0 xl:w-1/3 flex flex-col items-start">
         <div>
           <p className="font-calistoga text-white text-5xl sm:text-6xl py-4">
             Work Experience
