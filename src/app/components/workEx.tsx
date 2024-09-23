@@ -14,18 +14,18 @@ export default function WorkEx() {
         </p>
         <div className="flex flex-col space-y-4">
           <WorkExDetail
-            title="Lead Front End Developer"
-            companyName="PayCrunch, Bangalore"
+            title="Front End Developer"
+            companyName="PayCrunch, Bangalore (February 2024 - Present)"
             detail="I'm creating campaigns for businesses, along with copy and all the designs."
           />
           <WorkExDetail
             title="Member of Technical Staff"
-            companyName="Skillwin, Noida"
+            companyName="Skillwin, Noida (December 2022 - January 2024)"
             detail="Enhanced gameplay with new features, optimized performance, introduced multi-tabling, and diversified the in-game economy with inter-convertible currency for the products Octro Poker 3D (RMG)"
           />
           <WorkExDetail
             title="Game Developer"
-            companyName="Hitwicket, Hyderabad"
+            companyName="Hitwicket, Hyderabad (June 2021 - November 2022)"
             detail="I'm creating campaigns for businesses, along with copy and all the designs."
           />
         </div>

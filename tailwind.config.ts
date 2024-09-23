@@ -18,6 +18,8 @@ const config: Config = {
         'materialgreenlighter': "#378054",
         'materialgrey': "#E6E6E6",
         'black900': "#171717",
+        'materialblue': "#CFEAFC",
+        'materialsubtitlegrey': "#737373",
       },
       fontFamily: {
         sans: "var(--font-geist-sans)",

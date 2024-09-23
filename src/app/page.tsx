@@ -1,3 +1,4 @@
+import ContactMeSection from "./components/contactMeSection";
 import DeveloperTools from "./components/developerTools";
 import Intro from "./components/intro";
 import Languages from "./components/languages";
@@ -15,6 +16,7 @@ export default function Home() {
         <Languages />
         <WorkEx />
         <ProductsSection />
+        <ContactMeSection />
       </main>
       <footer></footer>
     </div>
