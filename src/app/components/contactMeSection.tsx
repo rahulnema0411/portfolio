@@ -6,9 +6,9 @@ import { IoMail } from "react-icons/io5";
 export default function ContactMeSection() {
   return (
     <div id="contact" className="p-8 bg-materialblue">
-      <nav className="flex justify-between items-center">
-        <div className="flex flex-row justify-between items-center w-full sm:w-auto">
-          <ul className="sm:flex space-x-4">
+      <nav className="flex flex-row items-center justify-between">
+        <div className="">
+          <ul className="flex space-x-4">
             <li>
               <a
                 href="#"
@@ -27,8 +27,8 @@ export default function ContactMeSection() {
             </li>
           </ul>
         </div>
-        <div className="hidden sm:flex flex-row justify-between md:justify-normal items-center">
-          <ul className={`sm:flex space-x-4`}>
+        <div className="">
+          <ul className="flex flex-row space-x-4">
             <li className="bg-white rounded-xl p-2">
               <a
                 href="https://www.linkedin.com/in/rahulnema0411"
