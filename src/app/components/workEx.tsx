@@ -15,7 +15,7 @@ export default function WorkEx() {
           <WorkExDetail
             title="Front End Developer"
             companyName="PayCrunch, Bangalore (February 2024 - Present)"
-            detail="I'm creating campaigns for businesses, along with copy and all the designs."
+            detail="Working on the development of the PayCrunch flutter application, focusing on creating seamless user experience."
           />
           <WorkExDetail
             title="Member of Technical Staff"
@@ -25,7 +25,7 @@ export default function WorkEx() {
           <WorkExDetail
             title="Game Developer"
             companyName="Hitwicket, Hyderabad (June 2021 - November 2022)"
-            detail="I'm creating campaigns for businesses, along with copy and all the designs."
+            detail="Enhanced engagement with new features, improved retention via A/B testing, developed real-time PVP, and ensured maintainable code using SOLID principles."
           />
         </div>
       </div>
