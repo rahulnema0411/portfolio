@@ -17,7 +17,7 @@ export default function DeveloperTools() {
 
 
   return (
-    <div className="flex flex-col md:flex-row py-24 sm:py-0 sm:items-center justify-between bg-tealblue h-1/2 px-8 space-y-0 sm:space-y-2">
+    <div className="flex flex-col md:flex-row py-24 sm:items-center justify-between bg-tealblue h-1/2 px-8 space-y-0 sm:space-y-2">
       <div className="sm:w-1/2 md:p-8 sm:py-40">
         <p className="text-5xl sm:text-6xl font-calistoga text-white">
           I love to transform <span className="text-materialyellow">ideas</span>{" "}

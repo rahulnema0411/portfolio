@@ -10,9 +10,9 @@ export default function ToolCard({
   imageData: StaticImageData;
 }) {
   return (
-    <div className= "m-2 flex items-center rounded-xl bg-white space-x-4">
-      <Image src={imageData} className="h-14 w-14" alt="uploadicon" />
-      <p className="text-black text-lg font-montserrat font-semibold pr-4">{title}</p>
+    <div className= "m-2 flex items-center rounded-xl bg-white space-x-2">
+      <Image src={imageData} className="h-10 w-10 sm:h-14 sm:w-14" alt="uploadicon" />
+      <p className="text-black text-sm sm:text-lg font-montserrat font-semibold pr-4">{title}</p>
     </div>
   );
 }

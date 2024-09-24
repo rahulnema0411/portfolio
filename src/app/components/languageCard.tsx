@@ -14,8 +14,8 @@ export default function LanguageCard({
       key="key1"
       className="flex flex-row items-center space-x-2"
     >
-      <Image src={imageData} className="h-10 w-10" alt="uploadicon" />
-      <p className="text-center text-2xl font-montserrat font-bold text-black">{name}</p>
+      <Image src={imageData} className="h-6 w-6 sm:h-10 sm:w-10" alt="uploadicon" />
+      <p className="text-center text-lg sm:text-2xl font-montserrat font-semibold text-black">{name}</p>
     </div>
   );
 }
