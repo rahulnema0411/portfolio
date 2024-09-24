@@ -34,7 +34,7 @@ const montserrat = localFont({
       weight: "800",
     },
     {
-      path: "./fonts/montserrat/Montserrat-Semibold.ttf",
+      path: "./fonts/montserrat/Montserrat-SemiBold.ttf",
       weight: "600",
     },
     {
