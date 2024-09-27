@@ -12,7 +12,7 @@ export default function ProductsSection() {
       <p className="sm:w-1/2 text-5xl sm:text-6xl font-calistoga text-black sm:text-center sm:mx-auto">
         Products I have helped build so far
       </p>
-      <div className="flex flex-col md:flex-row md:space-x-6">  {/*sm:flex grid grid-cols-2 gap-4 sm:space-x-16 */}
+      <div className="flex flex-col md:flex-row md:space-x-6 md: w-full md:overflow-x-auto">
         <ProductCard
           imageData={paycrunch}
           title="PayCrunch: a upi based creditline for gen-z."
